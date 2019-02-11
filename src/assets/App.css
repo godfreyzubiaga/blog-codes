@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  height: 100vh;
+  background: ghostwhite;
+  color: #333;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 0.9em;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 5px;
+}

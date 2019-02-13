@@ -1,50 +1,15 @@
-# ReactJS with ParcelJS Boilerplate
+# Quick Setup
 
-<p align="center">
-	<img src="https://res.cloudinary.com/starksten/image/upload/v1545892359/GRPA_Logo_2.png">
-</p>
+> Clone this repo `git clone https://github.com/godfreyzubiaga/blog-codes.git`
 
-[Demo](https://react-parcel-boilerplate.firebaseapp.com/)
+> Switch to branches to try each feature. `git checkout counter/customHooks/lifecycle`
 
-This is a very simple react boilerplate with zero configuration, thanks to parceljs bundler.
+> Install dependencies `npm i`
 
-## Quick Setup
+> and run `npm run start`
 
-1. Run `npx generate-react-parcel-app folderName`
-2. Redirect to your folder `cd folderName`
-3. Start the project `npm run start`
-4. Enjoy! :)
+> Enjoy, open in your browser to try `http://localhost:1234`
 
-## Features
 
-- ReactJS `v16.8 (with hooks)`
-- ParcelJS `v1`
-- Babel
-- ESLint (Airbnb)
-
-## File Structure
-
-```bash
-.
-├── public
-│   └── index.html
-└── src
-    ├── assets
-    │   └── App.css
-    ├── components
-    │   └── App.jsx
-    ├── index.jsx
-    └── utils
-        └── mountPoint.js
-├── LICENSE.md
-├── package.json
-├── package-lock.json
-├── .gitignore
-├── .eslintrc.js
-├── .browserslistrc
-├── babel.config.js
-```
-
-## LICENSE
-
-MIT license, Copyright (c) 2018 Godfrey Zubiaga
+#### This is bootstrapped with [Generate React Parcel App](https://www.npmjs.com/package/generate-react-parcel-app)
+Copyright (c) 2019 Godfrey Zubiaga
